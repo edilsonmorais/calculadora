@@ -1,6 +1,6 @@
 var resultado;
 
-function insert(num){      i
+function insert(num){ 
     var numero = document.getElementById('resultado').innerHTML;
     document.getElementById('resultado').innerHTML = numero + num        
 }
@@ -20,6 +20,6 @@ function calcular(){
     if(resultado) {
         document.getElementById('resultado').innerHTML = eval(resultado);
     } else {
-        document.getElementById('resultado').innerHTML = "Nada";
+        document.getElementById('resultado').innerHTML = 0;
     }    
 }
